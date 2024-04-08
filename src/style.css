@@ -92,3 +92,9 @@ p {
 .mb-5 {
   margin-bottom: 3rem !important;
 }
+
+@media (max-width: 400px) {
+  .primary-link {
+    display: none;
+  }
+}
